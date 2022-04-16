@@ -1,0 +1,121 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>portfolio</title>
+
+<style>
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+    .links-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+	
+.button {
+  background-color:  #666; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+   
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+</style>
+  </head>
+  <body>
+   <!-- Content container -->
+   
+	  
+<header>
+      <div style="text-align: center">
+        <img src=" " alt="image" width="150px" height="150px" style="border-radius: 50%;">
+        <p><span class="name w3-padding w3-pink w3-round" style="font-weight: bolder;">Hi, I'm Rima Shaw!</span></p>
+        <p style="font-weight: bolder;">Check out my links!</p>
+      </div>
+
+</header>	  
+  <hr> 
+  <section>
+  <div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">The Walk</div>
+    <div class="menuitem">Transport</div>
+    <div class="menuitem">History</div>
+    <div class="menuitem">Gallery</div>
+  </div>
+
+   <h3 class="heading" style="text-align: center;">MY EDUCATIONAL BACKGROUND</h3>
+    <div class="links-container">
+   	  <button onclick="location.href='eductional Details.html'" type="button"> Educational Background</button><!--add a page here-->
+</div>	  
+
+
+
+  
+   <h3 class="heading" style="text-align: center;">MY SKILLS </h3>
+    <div class="links-container">
+ <button onclick="location.href='Skill Details.html'" type="button">MY SKILLS  </button><!--add a page here-->
+ </div>
+ 
+ 
+ 
+ 
+    <h5 class="heading" style="text-align: center;">MY JOB DISCRIPTION</h3>
+	 <div class="links-container">
+	<button onclick="location.href='---'" type="button">Job DISCRIPTION </button><!--add a page here-->
+	</div>
+	
+	
+  <h3 class="heading" style="text-align: center;">MY SOCIAL NETWORKS </h3>
+		  <div class="links-container">
+       <button onclick="......" target="_blank">Linkedin</button> 
+        <button onclick="....." target="_blank">Github</button>
+      </div>
+		 
+  <h3 class="heading" style="text-align: center;"> MY CV</h3>
+   <div class="links-container">
+   <button onclick="location.href='---'" type="button">Click here to download </button><br><br><!--add a page here-->
+	</div>
+
+
+    <h3 style="text-align: center;">Rima Shaw</h3>
+ </div><!-- container end-->
+  
+<hr>
+</section>
+      <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+      <footer>
+	           <p> Thankyou</p>
+	  </footer>
+  
+    <script>
+      feather.replace()
+    </script>
+  </body>  
+</html>
